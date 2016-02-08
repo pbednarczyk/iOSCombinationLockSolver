@@ -54,14 +54,46 @@
 		95FC1BD51C693AD600782866 /* iOSCombinationLockSolver */ = {
 			isa = PBXGroup;
 			children = (
-				95FC1BD61C693AD600782866 /* AppDelegate.swift */,
-				95FC1BD81C693AD600782866 /* ViewController.swift */,
-				95FC1BDA1C693AD600782866 /* Main.storyboard */,
+				95FC1BE81C693D3000782866 /* Model */,
+				95FC1BE91C693D4300782866 /* View */,
+				95FC1BEA1C693D4C00782866 /* Controller */,
 				95FC1BDD1C693AD600782866 /* Assets.xcassets */,
-				95FC1BDF1C693AD600782866 /* LaunchScreen.storyboard */,
 				95FC1BE21C693AD600782866 /* Info.plist */,
+				95FC1BEB1C693F4200782866 /* Supporting Files */,
 			);
 			path = iOSCombinationLockSolver;
+			sourceTree = "<group>";
+		};
+		95FC1BE81C693D3000782866 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		95FC1BE91C693D4300782866 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				95FC1BDA1C693AD600782866 /* Main.storyboard */,
+				95FC1BDF1C693AD600782866 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		95FC1BEA1C693D4C00782866 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				95FC1BD81C693AD600782866 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		95FC1BEB1C693F4200782866 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95FC1BD61C693AD600782866 /* AppDelegate.swift */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
