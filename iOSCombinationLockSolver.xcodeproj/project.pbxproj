@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9514663D1C6BFCDA00E534C9 /* LockSolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9514663C1C6BFCDA00E534C9 /* LockSolver.swift */; };
 		95FC1BD71C693AD600782866 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FC1BD61C693AD600782866 /* AppDelegate.swift */; };
 		95FC1BD91C693AD600782866 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FC1BD81C693AD600782866 /* ViewController.swift */; };
 		95FC1BDC1C693AD600782866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95FC1BDA1C693AD600782866 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		9514663B1C6BD82900E534C9 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		9514663C1C6BFCDA00E534C9 /* LockSolver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockSolver.swift; sourceTree = "<group>"; };
 		95FC1BD31C693AD600782866 /* iOSCombinationLockSolver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSCombinationLockSolver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95FC1BD61C693AD600782866 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95FC1BD81C693AD600782866 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 		95FC1BE81C693D3000782866 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9514663C1C6BFCDA00E534C9 /* LockSolver.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			files = (
 				95FC1BD91C693AD600782866 /* ViewController.swift in Sources */,
 				95FC1BD71C693AD600782866 /* AppDelegate.swift in Sources */,
+				9514663D1C6BFCDA00E534C9 /* LockSolver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
