@@ -36,9 +36,13 @@ class ViewController: UIViewController {
         let z = Int((ZField?.text)!)!
         
         let solve = solveThreeValues([x,y,z])
+        var solveLabeltext = ""
         
-        solveLabel?.text = "\(solve))"
+        for s in solve {
+            solveLabeltext = " \(solveLabeltext) \(s.rotation) \(s.rWord) w \(s.way ? "prawo" : "lewo") i na \(s.number)"
+        }
         
+        solveLabel?.text = solveLabeltext
     }
     
     func getRotationWord (rotation: Int) -> String{
