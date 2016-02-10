@@ -29,17 +29,17 @@ class ViewController: UIViewController {
 
     @IBAction func updateSolveLabel() {
         
-        let x = Int((XField?.text)!)!
-        let y = Int((YField?.text)!)!
-        let z = Int((ZField?.text)!)!
-        
-        lockSolver = LockSolver(x: x, y: y, z: z)
-        let solve = lockSolver!.solveThreeValues()
-        
-        solveLabel0!.text = "\(solve[0].rotation) \(solve[0].rWord) w \(solve[0].way ? "prawo" : "lewo") i na \(solve[0].number)"
-        solveLabel1!.text = "\(solve[1].rotation) \(solve[1].rWord) w \(solve[1].way ? "prawo" : "lewo") i na \(solve[1].number)"
-        solveLabel2!.text = "\(solve[2].rotation) \(solve[2].rWord) w \(solve[2].way ? "prawo" : "lewo") i na \(solve[2].number)"
-        
+        if  let x = Int((XField?.text)!),
+            let y = Int((YField?.text)!),
+            let z = Int((ZField?.text)!) {
+            
+            lockSolver = LockSolver(x: x, y: y, z: z)
+            let solve = lockSolver!.solveThreeValues()
+            
+            solveLabel0!.text = "\(solve[0].rotation) \(solve[0].rWord) w \(solve[0].way ? "prawo" : "lewo") i na \(solve[0].number)"
+            solveLabel1!.text = "\(solve[1].rotation) \(solve[1].rWord) w \(solve[1].way ? "prawo" : "lewo") i na \(solve[1].number)"
+            solveLabel2!.text = "\(solve[2].rotation) \(solve[2].rWord) w \(solve[2].way ? "prawo" : "lewo") i na \(solve[2].number)"
+        }
     }
     
     override func didReceiveMemoryWarning() {
