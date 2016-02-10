@@ -47,7 +47,7 @@
                                     <action selector="updateSolveLabel" destination="BYZ-38-t0r" eventType="touchUpInside" id="M5H-5i-4md"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2 turns to the right, then to the 13, 1 turn left, to the 35, and then right again to the 18" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="88z-iy-eta">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="88z-iy-eta">
                                 <rect key="frame" x="150" y="173" width="300" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="38p-Kt-2Kp"/>
@@ -91,6 +91,7 @@
                     <connections>
                         <outlet property="XField" destination="GiU-gT-qUG" id="LfQ-Je-YEE"/>
                         <outlet property="YField" destination="eFr-gJ-xDD" id="oNP-Wr-h4n"/>
+                        <outlet property="ZField" destination="z6n-fa-U1p" id="Z2P-7m-Vse"/>
                         <outlet property="solveLabel" destination="88z-iy-eta" id="9o0-bC-bhy"/>
                     </connections>
                 </viewController>

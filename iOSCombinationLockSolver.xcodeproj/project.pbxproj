@@ -15,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9514663B1C6BD82900E534C9 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		95FC1BD31C693AD600782866 /* iOSCombinationLockSolver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSCombinationLockSolver.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95FC1BD61C693AD600782866 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95FC1BD81C693AD600782866 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +36,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9514663A1C6BD81B00E534C9 /* PlayGrounds */ = {
+			isa = PBXGroup;
+			children = (
+				9514663B1C6BD82900E534C9 /* MyPlayground.playground */,
+			);
+			name = PlayGrounds;
+			sourceTree = "<group>";
+		};
 		95FC1BCA1C693AD600782866 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +68,7 @@
 				95FC1BEA1C693D4C00782866 /* Controller */,
 				95FC1BDD1C693AD600782866 /* Assets.xcassets */,
 				95FC1BE21C693AD600782866 /* Info.plist */,
+				9514663A1C6BD81B00E534C9 /* PlayGrounds */,
 				95FC1BEB1C693F4200782866 /* Supporting Files */,
 			);
 			path = iOSCombinationLockSolver;
@@ -316,6 +326,7 @@
 				95FC1BE71C693AD600782866 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
