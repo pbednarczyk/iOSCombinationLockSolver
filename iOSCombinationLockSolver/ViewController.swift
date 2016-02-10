@@ -14,18 +14,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var YField: UITextField?
     @IBOutlet weak var ZField: UITextField?
     
-    @IBOutlet weak var solveLabel: UILabel?
+    @IBOutlet weak var solveLabel0: UILabel?
+    @IBOutlet weak var solveLabel1: UILabel?
+    @IBOutlet weak var solveLabel2: UILabel?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        XField?.text = "88"
-        YField?.text = "54"
-        ZField?.text = "26"
-        
-        
         // Do any additional setup after loading the view, typically from a nib.
-    
         XField?.becomeFirstResponder()
     }
 
@@ -36,13 +32,11 @@ class ViewController: UIViewController {
         let z = Int((ZField?.text)!)!
         
         let solve = solveThreeValues([x,y,z])
-        var solveLabeltext = ""
         
-        for s in solve {
-            solveLabeltext = " \(solveLabeltext) \(s.rotation) \(s.rWord) w \(s.way ? "prawo" : "lewo") i na \(s.number)"
-        }
+        solveLabel0!.text = "\(solve[0].rotation) \(solve[0].rWord) w \(solve[0].way ? "prawo" : "lewo") i na \(solve[0].number)"
+        solveLabel1!.text = "\(solve[1].rotation) \(solve[1].rWord) w \(solve[1].way ? "prawo" : "lewo") i na \(solve[1].number)"
+        solveLabel2!.text = "\(solve[2].rotation) \(solve[2].rWord) w \(solve[2].way ? "prawo" : "lewo") i na \(solve[2].number)"
         
-        solveLabel?.text = solveLabeltext
     }
     
     func getRotationWord (rotation: Int) -> String{
